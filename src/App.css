@@ -50,6 +50,24 @@
   border: none;
 }
 
+div.slide-left {
+  overflow: hidden;
+}
+
+div.slide-left p {
+  animation: slide-left 5s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
 
 
 

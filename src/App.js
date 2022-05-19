@@ -16,10 +16,10 @@ function App() {
       <header className='mt-10'>
         <div className='flex items-center justify-between'>
           <div>
-          <img src={logo} alt='logo' className='ml-6 lg:ml-12' />
+          <img src={logo} alt='logo' className='ml-6 lg:ml-12'  />
           </div>
           <div className=' mr-6 lg:mr-12'>
-          <button><img src={menu} /></button>
+          <button><img src={menu} alt='imageone'/></button>
           </div>
         </div>
       </header>
@@ -33,10 +33,10 @@ function App() {
       <Modal isShowing={isShowing} hide={toggle} />
       </section>
       <section className='bg-black mt-20'>
-      <div className='pt-4 grid grid-cols-3 h-96 gap-9 lg:ml-32'>
-        <div className='w-60 lg:w-80'><img className='w-24 mt-20 lg:mt-10 lg:w-40' src={imageone} /></div>
-        <div className='w-60 lg:w-96'><img className='mt-20 lg:mt-10 lg:w-60' src={imagetwo} /></div>
-        <div className='w-60 '><img className=' mt-20 lg:mt-10 lg:w-40' src={imagethre} /></div>
+      <div className='pt-4 grid grid-cols-3 h-96 lg:gap-9 lg:ml-32'>
+        <div className='w-40 lg:w-80'><img className='w-24 mt-20 lg:mt-10 lg:w-40' src={imageone} alt='imageone' /></div>
+        <div className='w-40 lg:w-96'><img className='mt-20 lg:mt-10 lg:w-60' src={imagetwo} alt='imageone' /></div>
+        <div className='w-20 '><img className=' mt-20 lg:mt-10 lg:w-40' src={imagethre} alt='imageone' /></div>
 
 
       </div>

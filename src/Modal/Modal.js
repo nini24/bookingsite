@@ -16,8 +16,6 @@ const Modal = ({isShowing,hide}) => {
     setEmail(e.target.value)
 }
     const onSubmit = e =>{
-        e.preventDefault()
-        alert(email)
         sendForm('booking session', 'template_0tvtnfk','#contact')
         .then(function(response) {
             console.log('SUCCESS!',response.status,response.text)

@@ -14,6 +14,7 @@ const Modal = ({isShowing,hide}) => {
     const [email,setEmail] = useState('')
    const handleChange = e => {console.log(e.target.value)
     setEmail(e.target.value)
+    console.log(email)
 }
     const onSubmit = e =>{
         sendForm('booking session', 'template_0tvtnfk','#contact')
